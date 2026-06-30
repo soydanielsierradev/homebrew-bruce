@@ -3,24 +3,24 @@
 class Bruce < Formula
   desc "Terminal workspace for Claude Code"
   homepage "https://github.com/soydanielsierradev/bruce-tui"
-  version "0.16.0"
+  version "0.16.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/soydanielsierradev/bruce-tui/releases/download/v0.16.0/bruce-aarch64-apple-darwin.tar.gz"
-      sha256 "9973cfae86ed9082d6d90f494f8d846f10aca6a3ca49ec2dbafcdfc9849cbefd"
+      url "https://github.com/soydanielsierradev/bruce-tui/releases/download/v0.16.1/bruce-aarch64-apple-darwin.tar.gz"
+      sha256 "531740267e3ada98570a2d62e088e905f6fb1819eb60cea71ed58b031030ae5c"
     end
     on_intel do
-      url "https://github.com/soydanielsierradev/bruce-tui/releases/download/v0.16.0/bruce-x86_64-apple-darwin.tar.gz"
-      sha256 "eaed669ae58bac32d021332f086ddc896f246859e1d88f153384fc3a39d73781"
+      url "https://github.com/soydanielsierradev/bruce-tui/releases/download/v0.16.1/bruce-x86_64-apple-darwin.tar.gz"
+      sha256 "b3b0a94231bbd5647b038e9ef46329541690f77ee338386e50a375dfe701ae1f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/soydanielsierradev/bruce-tui/releases/download/v0.16.0/bruce-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c94927de5a28c5bb60467d15e00597e789021b3da66d9d2ce222b748ef36d695"
+      url "https://github.com/soydanielsierradev/bruce-tui/releases/download/v0.16.1/bruce-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "14d5744d151909b965b2ee2f1601b24fe148888da378f67ea6724b2d7ac1226d"
     end
   end
 
